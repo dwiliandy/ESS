@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Golos+Text&family=League+Gothic&family=Lemon&display=swap');
+
+/* Global */
+*{
+  font-family: 'Golos Text', sans-serif;
+}
+
+.section-name{
+  font-family: 'Lemon', cursive;
+  text-decoration: underline;
+}
+
+.prev, .next{
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  color: white;
+}
+
+.prev-news, .next-news{
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  color: #ad4adf;
+}
+
+.prev:hover, .next:hover, .prev-news:hover, .next-news:hover{
+  color: #7841d8;
+}
+.slick-disabled, .slick-disabled:hover{
+  color: #ddd;
+}
+
+.custom-dots{
+  display: flex;
+  list-style:none;
+  align-items: center;
+  justify-content: center;
+  margin:0;
+  padding: 0 10px;
+}
+
+.custom-dots > li{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.custom-dots > li:hover{
+  background-color: #ad4adf;
+  cursor: pointer;
+}
+
+.custom-dots > .slick-active{
+  background-color: #920bd5;
+  cursor: pointer;
+  color: white;
+}
+/* End Global */
+
+
+
+/* Navbar */
+.navbar{
+  backdrop-filter: blur(8px);
+}
+.navbar-collapse{
+  margin: 20px 0;
+}
+
+.nav-item{
+  color: #666666 !important;
+  margin-left: .2rem;
+  margin-right: .2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.nav-item.active{
+  background: #7841d8 ;
+  border-radius: 10px;
+}
+
+.nav-item.active > .nav-link{
+  color: white !important;
+}
+
+
+.nav-item:hover{
+  background-color: #666666;
+  color: white !important;
+  border-radius: 10px;
+}
+
+.nav-item:hover > .nav-link{
+  color: white !important;
+}
+
+.btn-sign{
+  background-color: black;
+  color: #fff;
+  font-size: .8rem;
+  padding: 6px 10px;
+}
+
+.btn-sign:hover{
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #000;
+}
+
+.notification-bell{
+    color: #666666;
+    align-items: center;
+    justify-content: center;
+}
+.notification-bell:hover{
+  color: rgb(43, 42, 42);
+}
+
+.sign-bell{
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.notification-bell, .btn-sign{
+  font-size: 1rem;
+}
+
+/* End Navbar */
+
+/* Introduction */
+
+.introduction{
+  background: linear-gradient(180deg, #ffffff 0%, #eceefe 60.36036036036037%);
+}
+
+.box{
+  width: 80vw;
+  height: 150px;
+  background-color: #FFBE0B;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+.box > span > h1{
+  font-size: 30px;
+}
+.box > span > h3{
+  font-size: 20px;
+}
+/* End Introduction */
+
+/* Service */
+.service{
+  background: linear-gradient(180deg, #eceefe 17.117117117117115%, #a8b5f5 100%);
+}
+
+.service-data{
+  height: 120px;
+  width:120px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #7841d8;
+}
+
+.service-text{
+  color: #7841d8;
+  font-size: .8rem;
+  font-weight: bolder;
+}
+/* End Service */
+
+/* Slider */
+.slider{
+  background: linear-gradient(180deg, #a8b5f5 36.03603603603604%, #3d54c7 100%);
+}
+/* End Slider */
+
+/* Birthday */
+.birthday{
+  background: linear-gradient(180deg, #445aca 0%, #abb6f5 100%);
+}
+
+.birthday-content{
+  height: 220px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.birthday-user > h1{
+  font-size: 4rem;
+  padding-bottom: 20px;
+}
+
+.birthday-user > h5{
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.birthday-user > p{
+  font-size: .9rem;
+}
+/* End Birthday */
+
+/* News */
+.news{
+  background: linear-gradient(180deg, #abb6f5 0%, #F0B3FA 53.60360360360361%);
+}
+
+.news-card{
+  border-radius: 10px;
+  background-color: #eeeffd;
+  padding: 15px;
+}
+
+
+.news-title{
+  font-family: 'League Gothic', sans-serif;
+  color: #8338EC;
+}
+
+
+.news-truncate{
+  color: #8338EC;
+}
+
+.row-1, .row-2{
+  text-align: center;
+}
+/* End News */
+
+/* Activity Gallery */
+.gellery{
+  background: linear-gradient(180deg, #F0B3FA 0%, #e9d9fd 100%);
+}
+/* End Gallery */
+
+/* Faqs */
+.faq{
+  background: linear-gradient(180deg, #e6d1ff 0%, #f5f5f5 46.846846846846844%);
+}
+/* End Faqs */
+
+/* Footer */
+.footer{
+  background-color: #f5f5f5;
+}
+
+.footer-data{
+  font-size: .8rem;
+}
+/* End Footer */
+
+
+/* Tablet Portrait */
+
+/* Table Landscape */
+
+/* Laptop */
+@media only screen and (min-width: 992px) {
+  /* Navbar */
+  
+  .navbar-collapse{
+    margin: 0;
+  }
+  .nav-item{
+    display: block;
+    margin-left: .2rem;
+    margin-right: .2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .sign-bell{
+    margin-top: 0;
+  }
+
+  .btn-sign{
+    font-size: .8rem;
+    padding: 6px 10px;
+  }
+
+  .notification-bell{
+    font-size: .8rem;
+  }
+
+  /* Introduction */
+  .introduction{
+    height: calc(100vh - 56px);
+  }
+  
+  .box{
+    width: 55vw;
+    background-color: #FFBE0B;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+
+  .box > span > h1{
+    font-size: 45px;
+  }
+  .box > span > h3{
+    font-size: 35px;
+  }
+
+  .introduction-text{
+    min-height: calc(100vh - 250px - 56px);
+  }
+  /* End Introduction */
+  
+  /* Service */
+  .service-data{
+    height: 130px;
+    width:130px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  /* End Service */
+
+  /* News */
+  .row-1{
+    text-align:left;
+  }
+
+  .row-2{
+    text-align:right;
+  }
+  /* End News */
+
+} 
